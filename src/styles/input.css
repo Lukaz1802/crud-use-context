@@ -1,0 +1,36 @@
+.container-input {
+  display: flex;
+}
+
+.input-icono {
+  background-image: url("../images/icon_name.png");
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 58px;
+  height: 30px;
+}
+.input-icono input {
+  width: 100%;
+  font-size: 1em;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(185, 182, 182);
+}
+.input-icono input:focus {
+  outline: none;
+}
+
+#status-search {
+  height: 26px;
+  margin-left: 12px;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(185, 182, 182);
+}

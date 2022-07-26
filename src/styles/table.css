@@ -1,0 +1,100 @@
+table.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.table,
+table.table th,
+table.table td {
+  border: 0px solid #ddd;
+}
+
+table.table th,
+table.table td {
+  padding: 15px;
+  font-size: 18px;
+}
+
+table.table th {
+  color: #555;
+}
+
+table.table th {
+  text-align: center;
+}
+
+.image-user {
+  border-radius: 100%;
+  width: 55px;
+}
+
+
+
+table.table td a {
+  text-decoration: none;
+  color: rgb(0, 81, 230);
+}
+#button-status-active {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  border: 0px solid #8f9092;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: rgb(78, 192, 78);
+}
+#button-status-pending {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  border: 0px solid #8f9092;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: rgb(238, 133, 67);
+}
+
+#button-status-inactive {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  border: 0px solid #8f9092;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: rgb(236, 68, 68);
+}
+
+#delete-icon{
+  width: 25px;
+  height: 25px;
+  border: 0px solid #ffffff;
+  background-color: white;
+  cursor: pointer;
+}
+
+#delete-icon:hover{
+  transform: translateY(-7px);
+
+}
+
+#button-delete{
+  background-color: white;
+  border: 0px solid #ffffff;
+
+}
+#button-edit {
+  width: 50px;
+  height: 30px;
+  border: 0px solid #ffffff;
+  background-color: white;
+  cursor: pointer;
+}
+#button-edit:hover {
+  transform: translateY(-7px);
+}
+
+#no-results-icon {
+  margin-top: 15%;
+}

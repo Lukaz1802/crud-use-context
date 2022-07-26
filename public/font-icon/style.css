@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'janis-font-icon';
+  src:  url('fonts/janis-font-icon.eot?o1bfzd');
+  src:  url('fonts/janis-font-icon.eot?o1bfzd#iefix') format('embedded-opentype'),
+    url('fonts/janis-font-icon.ttf?o1bfzd') format('truetype'),
+    url('fonts/janis-font-icon.woff?o1bfzd') format('woff'),
+    url('fonts/janis-font-icon.svg?o1bfzd#janis-font-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'janis-font-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check_circle_bold:before {
+  content: "\e99e";
+}
+.icon-chevron_down:before {
+  content: "\e928";
+}
+.icon-chevron_up:before {
+  content: "\e92b";
+}
+.icon-cross_light:before {
+  content: "\e935";
+}
+.icon-cross_small_circle:before {
+  content: "\e936";
+}
+.icon-edit:before {
+  content: "\e93b";
+}
+.icon-logo_fizzmod:before {
+  content: "\e991";
+}
+.icon-save_as:before {
+  content: "\e96e";
+}
+.icon-star_light:before {
+  content: "\e980";
+}
+.icon-user_closed:before {
+  content: "\e98c";
+}

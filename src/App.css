@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.text-title {
+  text-align: left;
+  margin-left: 25px;
+  font-weight: 600;
+  color: rgb(77, 77, 77);
+}
+
+#button-new {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  background-color: white;
+  border: none;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+#button-new:hover {
+  transform: translateY(-7px);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
